@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="221.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.petproject.TaskDetailsController">
+   <children>
+      <Label fx:id="taskTitleLabel" layoutX="61.0" layoutY="48.0" text="Заголовок задачи" />
+      <TextArea fx:id="taskDescriptionArea" layoutX="11.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="cancelButtonTask" layoutX="71.0" layoutY="322.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" text="Назад" />
+      <Button fx:id="perfomButton" layoutX="71.0" layoutY="354.0" mnemonicParsing="false" text="Выполнить" />
+   </children>
+</AnchorPane>
